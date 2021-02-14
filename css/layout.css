@@ -1,0 +1,41 @@
+header nav {
+    background-color: burlywood;
+    height: 75px;
+}
+
+header div {
+    background-color: brown;
+    height: 150px;
+}
+
+main section:first-child div{
+    background-color: blue;
+    height: 125px;
+}
+
+.sec-section-1st-divs,.sec-section-2nd-divs {
+    background-color: aqua;
+    height: 250px;
+    width: 50%;
+    float: left;    
+}
+
+.sec-section-1st-divs:first-child,.sec-section-2nd-divs:first-child {
+    float: right;
+}
+
+
+.sec-section-1st-divs {
+    background-color: cadetblue;
+}
+
+#second-section::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+footer {
+    height: 80px;
+    background-color: crimson;
+}
