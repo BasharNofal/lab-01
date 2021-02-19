@@ -1,0 +1,73 @@
+#a {
+    background-color: burlywood;
+}
+
+#b {
+    background-color: brown;
+}
+
+#c {
+    background-color: blue;
+}
+
+#d {
+    background-color: chocolate;
+}
+
+#e {
+    background-color: darkgreen;
+}
+
+#f {
+    background-color: crimson;
+}
+
+#g {
+    background-color: cyan;
+}
+
+#h {
+    background-color: dimgray;
+}
+
+#i {
+    background-color: darkslateblue;
+}
+
+@media only screen and (min-width: 480px) {
+    #a {
+        background-color: crimson;
+    }
+    
+    #b {
+        background-color: darkgreen;
+    }
+    
+    #c {
+        background-color: dimgray;
+    }
+    
+    #d {
+        background-color: blue;
+    }
+    
+    #e {
+        background-color: cornflowerblue;
+    }
+    
+    #f {
+        background-color: black;
+    }
+    
+    #g {
+        background-color: teal;
+    }
+    
+    #h {
+        background-color: silver;
+    }
+    
+    #i {
+        background-color: tan;
+    }
+}

@@ -1,41 +1,79 @@
-header nav {
-    background-color: burlywood;
+#a {
     height: 75px;
 }
 
-header div {
-    background-color: brown;
+#b {
     height: 150px;
 }
 
-main section:first-child div{
-    background-color: blue;
+#c {
     height: 125px;
 }
 
-.sec-section-1st-divs,.sec-section-2nd-divs {
-    background-color: aqua;
-    height: 250px;
+#d {
+    height: 125px;
+}
+
+#e,#g{
+    float: left;
     width: 50%;
-    float: left;    
+    height: 250px;
 }
 
-.sec-section-1st-divs:first-child,.sec-section-2nd-divs:first-child {
+#f,#h{
     float: right;
+    width: 50%;
+    height: 250px;
 }
 
-
-.sec-section-1st-divs {
-    background-color: cadetblue;
-}
-
-#second-section::after {
+#second-section::after{
     content: "";
     clear: both;
     display: table;
 }
 
-footer {
+#i {
     height: 80px;
     background-color: crimson;
+}
+
+@media only screen and (min-width: 480px) {
+    #b {
+        width: 18%;
+        height: 600px;
+        float: left;
+    }
+
+    main {
+        width: 100%;
+        height: 450px;
+
+    }
+
+    #c {
+        float: left;
+        height: 200px;
+        width: 41%;
+    }
+
+    #d {
+        float: right;
+        height: 200px;
+        width: 41%;
+    }
+
+    #e,#f,#g,#h {
+        width:20.5% ;
+    }
+
+    #f {
+        float: left;
+    }
+
+    #i {
+        width: 82%;
+        height: 150px;
+        float: right;
+    }
+
 }
