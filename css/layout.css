@@ -38,6 +38,11 @@
 }
 
 @media only screen and (min-width: 480px) {
+
+    #a {
+        height: 100px;
+    }
+
     #b {
         width: 18%;
         height: 600px;
